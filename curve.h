@@ -17,7 +17,7 @@ public:
 
     virtual Point At(double t) const noexcept = 0;
 
-    // If there is no override implementation then it computes with the numerical method.
+    // If there is no override implementation then it computes using the limit definition.
     virtual Point Derivative(double t) const noexcept;
 };
 
